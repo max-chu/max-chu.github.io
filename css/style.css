@@ -356,6 +356,7 @@ a:hover {
   font-size: 1.5rem;
   font-weight: 300;
   color: #fff;
+  padding-bottom: 0.5em;
 }
 
 .intro .text-slider-items {
@@ -390,6 +391,22 @@ a:hover {
 
 .intro-single .breadcrumb a {
   color: #fff;
+}
+
+.contact-method .resume {
+  color: #fff;
+  display: inline;
+  border-radius: 12px;
+  border: 2px solid #fff;
+  padding: 8px;
+}
+
+.contact-method:hover .resume {
+  color: #fff;
+  display: inline;
+  border-radius: 15px;
+  border: 2px solid #0078ff;
+  padding: 8px;
 }
 
 /* About Me */
@@ -477,16 +494,18 @@ footer {
   text-align: center;
   color: #fff;
   padding-bottom: 2rem;
+  margin-right: 2em;
 }
 
 footer .copyright {
+  left: 100em;
   margin-bottom: 0.1rem;
   width: 50%;
   margin: 0 auto;
 }
 
 .socials {
-  margin-left: 20%;
+  margin-left: 30%;
   color: white;
 }
 
@@ -524,7 +543,7 @@ footer .copyright {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 20rem;
+  height: 15rem;
 }
 .contact-container a.contact-method {
   color: inherit;
