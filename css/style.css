@@ -9,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #e0d7d7;
+  color: #fbfbff;
 }
 
 a {
@@ -111,10 +111,6 @@ a:hover {
   background-color: #252424;
 }
 
-.sect-mt4 {
-  margin-top: 4rem;
-}
-
 /* Title s */
 
 .title-s {
@@ -173,6 +169,15 @@ a:hover {
 
 .box-pl2 {
   padding-left: 2rem;
+}
+
+.box-shadow-full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #1b1b1b;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Navbar */
@@ -256,7 +261,7 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all 0.5s ease-in-out;
-  background-color: #252424;
+  background-color: #1b1b1b;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -266,7 +271,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #252424;
+  background-color: #1b1b1b;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
@@ -398,7 +403,10 @@ a:hover {
   display: inline;
   border-radius: 12px;
   border: 2px solid #fff;
-  padding: 8px;
+  padding-top: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
 }
 
 .contact-method:hover .resume {
@@ -434,11 +442,13 @@ a:hover {
 }
 
 .portfolio-box:hover img {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 .portfolio-img {
+  width: 540px;
+  height: 338px;
   display: block;
   overflow: hidden;
 }
@@ -452,8 +462,9 @@ a:hover {
 }
 
 .portfolio-content .w-more {
-  color: #4e4e4e;
+  color: #d6d0d0;
   font-size: 0.8rem;
+  width: 4.5in;
 }
 
 .w-title {
@@ -462,6 +473,12 @@ a:hover {
 
 .w-description {
   font-size: 1.2rem;
+}
+
+.img-fluid {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 /* Contact Section*/
