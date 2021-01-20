@@ -464,7 +464,11 @@ a:hover {
 .portfolio-content .w-more {
   color: #d6d0d0;
   font-size: 0.8rem;
-  width: 4.5in;
+  width: 5in;
+}
+
+.largerBox {
+  height: 11em;
 }
 
 .w-title {
