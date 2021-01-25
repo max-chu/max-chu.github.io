@@ -432,6 +432,21 @@ a:hover {
   padding-bottom: 4rem;
 }
 
+.personal-pic {
+  border-radius: 0.5em;
+  display: block;
+  width: 50%;
+  margin-top: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 375px;
+  width: 281px;
+}
+
+.lead {
+  margin-right: 30px;
+}
+
 /* Portfolio */
 
 .portfolio-box {
